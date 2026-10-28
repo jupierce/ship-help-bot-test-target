@@ -1,0 +1,1 @@
+Temporary gh gateway integration fixture; remove after verification.
