@@ -1,0 +1,3 @@
+FROM registry.access.redhat.com/ubi9/ubi-minimal:9.6
+RUN microdnf install -y insights-client rhc && microdnf clean all
+LABEL io.chai.marker="HIBISCUS 20261030-0242"
